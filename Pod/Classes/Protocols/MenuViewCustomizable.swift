@@ -96,4 +96,11 @@ public struct MenuUnderlineBackgroundStyle {
     var color: UIColor
     var horizontalPadding: CGFloat
     var verticalPadding: CGFloat
+    
+    public init(height: CGFloat, color: UIColor, horizontalPadding: CGFloat, verticalPadding: CGFloat) {
+        self.height = height
+        self.color = color
+        self.horizontalPadding = horizontalPadding
+        self.verticalPadding = verticalPadding
+    }
 }

@@ -386,7 +386,10 @@ extension MenuView {
         switch menuOptions.focusMode {
         case .underline:
             underlineView.removeFromSuperview()
-            if menuOptions.underlineBackgroundStyle != nil { underlineBackgroundView.removeFromSuperview() }
+            if menuOptions.underlineBackgroundStyle != nil {
+                underlineBackgroundView.removeFromSuperview()
+            }
+            
         case .roundRect: roundRectView.removeFromSuperview()
         case .none: break
         }
