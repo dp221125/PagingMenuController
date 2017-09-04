@@ -20,6 +20,9 @@ open class MenuView: UIScrollView {
         $0.translatesAutoresizingMaskIntoConstraints = false
         return $0
     }(UIView(frame: .zero))
+    lazy fileprivate var underlineBackgroundView: UIView = {
+        return UIView(frame: .zero)
+    }()
     lazy fileprivate var underlineView: UIView = {
         return UIView(frame: .zero)
     }()
@@ -94,6 +97,7 @@ open class MenuView: UIScrollView {
         setupRoundRectViewIfNeeded()
         constructor()
         layoutMenuItemViews()
+        setupUnderlineBackgroundViewIfNeeded()
         setupUnderlineViewIfNeeded()
     }
     
@@ -268,6 +272,18 @@ open class MenuView: UIScrollView {
         layoutIfNeeded()
     }
     
+    fileprivate func setupUnderlineBackgroundViewIfNeeded() {
+        guard let style = menuOptions.underlineBackgroundStyle else { return }
+        
+        let width = contentView.frame.width - style.horizontalPadding * 2
+        underlineBackgroundView.frame = CGRect(x: style.horizontalPadding,
+                                               y: menuOptions.height - (style.height + style.verticalPadding),
+                                               width: width,
+                                               height: style.height)
+        underlineBackgroundView.backgroundColor = style.color
+        contentView.addSubview(underlineBackgroundView)
+    }
+  
     fileprivate func setupUnderlineViewIfNeeded() {
         guard case let .underline(height, color, horizontalPadding, verticalPadding) = menuOptions.focusMode else { return }
         
