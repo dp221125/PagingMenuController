@@ -273,7 +273,7 @@ open class MenuView: UIScrollView {
     }
     
     fileprivate func setupUnderlineBackgroundViewIfNeeded() {
-        guard let style = menuOptions.underlineBackgroundStyle else { return }
+        guard case .underline = menuOptions.focusMode, let style = menuOptions.underlineBackgroundStyle else { return }
         
         let width = contentView.frame.width - style.horizontalPadding * 2
         underlineBackgroundView.frame = CGRect(x: style.horizontalPadding,
@@ -384,7 +384,9 @@ extension MenuView {
     func cleanup() {
         contentView.removeFromSuperview()
         switch menuOptions.focusMode {
-        case .underline: underlineView.removeFromSuperview()
+        case .underline:
+            underlineView.removeFromSuperview()
+            if menuOptions.underlineBackgroundStyle != nil { underlineBackgroundView.removeFromSuperview() }
         case .roundRect: roundRectView.removeFromSuperview()
         case .none: break
         }
