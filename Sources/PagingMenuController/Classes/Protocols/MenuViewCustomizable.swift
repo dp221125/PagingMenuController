@@ -22,6 +22,7 @@ public protocol MenuViewCustomizable {
     var menuPosition: MenuPosition { get }
     var dividerImage: UIImage? { get }
     var itemsOptions: [MenuItemViewCustomizable] { get }
+    var underlineBackgroundStyle: MenuUnderlineBackgroundStyle? { get }
 }
 
 public extension MenuViewCustomizable {
@@ -86,4 +87,18 @@ public enum MenuFocusMode {
 public enum MenuPosition {
     case top
     case bottom
+}
+
+public struct MenuUnderlineBackgroundStyle {
+    var height: CGFloat
+    var color: UIColor
+    var horizontalPadding: CGFloat
+    var verticalPadding: CGFloat
+    
+    public init(height: CGFloat, color: UIColor, horizontalPadding: CGFloat, verticalPadding: CGFloat) {
+        self.height = height
+        self.color = color
+        self.horizontalPadding = horizontalPadding
+        self.verticalPadding = verticalPadding
+    }
 }
