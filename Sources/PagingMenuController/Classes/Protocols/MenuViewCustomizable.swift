@@ -59,9 +59,11 @@ public extension MenuViewCustomizable {
     var dividerImage: UIImage? {
         return nil
     }
+    
     var underlineBackgroundStyle: MenuUnderlineBackgroundStyle? {
         return nil
     }
+    
 }
 
 public enum MenuDisplayMode {

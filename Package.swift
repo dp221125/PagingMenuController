@@ -20,5 +20,6 @@ let package = Package(
         .testTarget(
             name: "PagingMenuControllerTests",
             dependencies: ["PagingMenuController"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
