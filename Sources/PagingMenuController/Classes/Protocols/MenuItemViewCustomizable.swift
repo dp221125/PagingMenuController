@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 public protocol MenuItemViewCustomizable {
     var horizontalMargin: CGFloat { get }

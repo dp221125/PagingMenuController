@@ -20,6 +20,9 @@ open class MenuView: UIScrollView {
         $0.translatesAutoresizingMaskIntoConstraints = false
         return $0
     }(UIView(frame: .zero))
+    lazy fileprivate var underlineBackgroundView: UIView = {
+        return UIView(frame: .zero)
+    }()
     lazy fileprivate var underlineView: UIView = {
         return UIView(frame: .zero)
     }()
@@ -94,6 +97,7 @@ open class MenuView: UIScrollView {
         setupRoundRectViewIfNeeded()
         constructor()
         layoutMenuItemViews()
+        setupUnderlineBackgroundViewIfNeeded()
         setupUnderlineViewIfNeeded()
     }
     
@@ -177,7 +181,7 @@ open class MenuView: UIScrollView {
         bounces = menuViewBounces
         isScrollEnabled = menuViewScrollEnabled
         isDirectionalLockEnabled = true
-        decelerationRate = UIScrollView.DecelerationRate(rawValue: menuOptions.deceleratingRate)
+		decelerationRate = UIScrollView.DecelerationRate(rawValue: menuOptions.deceleratingRate)
         scrollsToTop = false
         translatesAutoresizingMaskIntoConstraints = false
     }
@@ -268,6 +272,18 @@ open class MenuView: UIScrollView {
         layoutIfNeeded()
     }
     
+    fileprivate func setupUnderlineBackgroundViewIfNeeded() {
+        guard case .underline = menuOptions.focusMode, let style = menuOptions.underlineBackgroundStyle else { return }
+        
+        let width = contentView.frame.width - style.horizontalPadding * 2
+        underlineBackgroundView.frame = CGRect(x: style.horizontalPadding,
+                                               y: menuOptions.height - (style.height + style.verticalPadding),
+                                               width: width,
+                                               height: style.height)
+        underlineBackgroundView.backgroundColor = style.color
+        contentView.addSubview(underlineBackgroundView)
+    }
+  
     fileprivate func setupUnderlineViewIfNeeded() {
         guard case let .underline(height, color, horizontalPadding, verticalPadding) = menuOptions.focusMode else { return }
         
@@ -331,7 +347,7 @@ open class MenuView: UIScrollView {
     }
     
     fileprivate func focusMenuItem() {
-        let isSelected: (MenuItemView) -> Bool = { self.menuItemViews.firstIndex(of: $0) == self.currentPage }
+		let isSelected: (MenuItemView) -> Bool = { self.menuItemViews.firstIndex(of: $0) == self.currentPage }
         
         // make selected item focused
         menuItemViews.forEach {
@@ -368,7 +384,12 @@ extension MenuView {
     func cleanup() {
         contentView.removeFromSuperview()
         switch menuOptions.focusMode {
-        case .underline: underlineView.removeFromSuperview()
+        case .underline:
+            underlineView.removeFromSuperview()
+            if menuOptions.underlineBackgroundStyle != nil {
+                underlineBackgroundView.removeFromSuperview()
+            }
+            
         case .roundRect: roundRectView.removeFromSuperview()
         case .none: break
         }

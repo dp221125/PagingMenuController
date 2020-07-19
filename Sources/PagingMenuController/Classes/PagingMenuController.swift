@@ -40,8 +40,8 @@ open class PagingMenuController: UIViewController {
             
             pagingViewController.contentScrollView.delegate = self
             view.addSubview(pagingViewController.view)
-            addChild(pagingViewController)
-            pagingViewController.didMove(toParent: self)
+			addChild(pagingViewController)
+			pagingViewController.didMove(toParent: self)
         }
     }
     public var onMove: ((MenuMoveState) -> Void)? {
@@ -478,10 +478,10 @@ extension PagingMenuController {
         menuView?.addGestureRecognizer(rightSwipeGestureRecognizer)
     }
     
-    @objc internal func handleTapGesture(_ recognizer: UITapGestureRecognizer) {
+	@objc internal func handleTapGesture(_ recognizer: UITapGestureRecognizer) {
         guard let menuItemView = recognizer.view as? MenuItemView,
             let menuView = menuView,
-            let page = menuView.menuItemViews.firstIndex(of: menuItemView),
+			let page = menuView.menuItemViews.firstIndex(of: menuItemView),
             page != menuView.currentPage,
             let menuOptions = menuOptions else { return }
         
@@ -503,19 +503,19 @@ extension PagingMenuController {
         move(toPage: newPage)
     }
     
-    @objc internal func handleSwipeGesture(_ recognizer: UISwipeGestureRecognizer) {
+	@objc internal func handleSwipeGesture(_ recognizer: UISwipeGestureRecognizer) {
         guard let menuView = recognizer.view as? MenuView,
             let menuOptions = menuOptions else { return }
         
         let newPage: Int
         switch (recognizer.direction, menuOptions.displayMode) {
-        case (UISwipeGestureRecognizer.Direction.left, .infinite):
+			case (UISwipeGestureRecognizer.Direction.left, .infinite):
             newPage = menuView.nextPage
-        case (UISwipeGestureRecognizer.Direction.left, _):
+			case (UISwipeGestureRecognizer.Direction.left, _):
             newPage = min(nextPage, menuOptions.itemsOptions.count - 1)
-        case (UISwipeGestureRecognizer.Direction.right, .infinite):
+			case (UISwipeGestureRecognizer.Direction.right, .infinite):
             newPage = menuView.previousPage
-        case (UISwipeGestureRecognizer.Direction.right, _):
+			case (UISwipeGestureRecognizer.Direction.right, _):
             newPage = max(previousPage, 0)
         default: return
         }
@@ -533,8 +533,8 @@ extension PagingMenuController {
         if let pagingViewController = self.pagingViewController {
             pagingViewController.cleanup()
             pagingViewController.view.removeFromSuperview()
-            pagingViewController.removeFromParent()
-            pagingViewController.willMove(toParent: nil)
+			pagingViewController.removeFromParent()
+			pagingViewController.willMove(toParent: nil)
         }
     }
 }

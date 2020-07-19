@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 public protocol MenuViewCustomizable {
     var backgroundColor: UIColor { get }
@@ -39,7 +38,7 @@ public extension MenuViewCustomizable {
         return 0.3
     }
     var deceleratingRate: CGFloat {
-        return UIScrollView.DecelerationRate.fast.rawValue
+		return UIScrollView.DecelerationRate.fast.rawValue
     }
     var selectedItemCenter: Bool {
         return true
@@ -57,6 +56,9 @@ public extension MenuViewCustomizable {
         return .top
     }
     var dividerImage: UIImage? {
+        return nil
+    }
+    var underlineBackgroundStyle: MenuUnderlineBackgroundStyle? {
         return nil
     }
 }
