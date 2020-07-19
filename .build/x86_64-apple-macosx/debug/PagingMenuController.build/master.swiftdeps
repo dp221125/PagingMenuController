@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "99eb86048da15dce7d2f9f3cc9468201"
+build_time: [1595120258, 211044000]
+inputs:
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/MenuItemView.swift": [1595120132, 54347828]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/MenuView.swift": [1595120132, 47153237]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/PagingMenuController.swift": [1595120131, 997450068]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/PagingViewController.swift": [1595120131, 982907517]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/MenuItemViewCustomizable.swift": [1595120169, 43942459]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/MenuViewCustomizable.swift": [1595120235, 368329908]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/Pagable.swift": [1595117072, 843058944]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/PagingMenuControllerCustomizable.swift": [1595120191, 340948496]

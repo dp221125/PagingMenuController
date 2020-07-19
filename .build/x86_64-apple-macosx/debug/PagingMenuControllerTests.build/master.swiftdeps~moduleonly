@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "20203aaf26dd49e229ffe9f252f8ad06"
+build_time: [1595120301, 740044000]
+inputs:
+  "/Users/hanzo/Desktop/My/PagingMenuController/Tests/PagingMenuControllerTests/PagingMenuControllerTests.swift": [1595118722, 806482760]
+  "/Users/hanzo/Desktop/My/PagingMenuController/Tests/PagingMenuControllerTests/XCTestManifests.swift": [1595118722, 806687057]

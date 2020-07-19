@@ -1,0 +1,176 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuViewCustomizable"
+- "MenuDisplayMode"
+- "MenuItemWidthMode"
+- "MenuScrollingMode"
+- "MenuFocusMode"
+- "MenuPosition"
+- "MenuUnderlineBackgroundStyle"
+provides-nominal:
+- "20PagingMenuController0B16ViewCustomizableP"
+- "20PagingMenuController0B11DisplayModeO"
+- "20PagingMenuController0B13ItemWidthModeO"
+- "20PagingMenuController0B13ScrollingModeO"
+- "20PagingMenuController0B9FocusModeO"
+- "20PagingMenuController0B8PositionO"
+- "20PagingMenuController0B24UnderlineBackgroundStyleV"
+provides-member:
+- ["20PagingMenuController0B16ViewCustomizableP", ""]
+- ["20PagingMenuController0B11DisplayModeO", ""]
+- ["20PagingMenuController0B13ItemWidthModeO", ""]
+- ["20PagingMenuController0B13ScrollingModeO", ""]
+- ["20PagingMenuController0B9FocusModeO", ""]
+- ["20PagingMenuController0B8PositionO", ""]
+- ["20PagingMenuController0B24UnderlineBackgroundStyleV", ""]
+- ["20PagingMenuController0B16ViewCustomizableP", "backgroundColor"]
+- ["20PagingMenuController0B16ViewCustomizableP", "selectedBackgroundColor"]
+- ["20PagingMenuController0B16ViewCustomizableP", "height"]
+- ["20PagingMenuController0B16ViewCustomizableP", "animationDuration"]
+- ["20PagingMenuController0B16ViewCustomizableP", "deceleratingRate"]
+- ["20PagingMenuController0B16ViewCustomizableP", "selectedItemCenter"]
+- ["20PagingMenuController0B16ViewCustomizableP", "displayMode"]
+- ["20PagingMenuController0B16ViewCustomizableP", "focusMode"]
+- ["20PagingMenuController0B16ViewCustomizableP", "dummyItemViewsSet"]
+- ["20PagingMenuController0B16ViewCustomizableP", "menuPosition"]
+- ["20PagingMenuController0B16ViewCustomizableP", "dividerImage"]
+- ["20PagingMenuController0B16ViewCustomizableP", "underlineBackgroundStyle"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "MenuDisplayMode"
+- "MenuFocusMode"
+- "MenuItemViewCustomizable"
+- "MenuItemWidthMode"
+- "MenuPosition"
+- "MenuScrollingMode"
+- "MenuUnderlineBackgroundStyle"
+- "MenuViewCustomizable"
+- "TimeInterval"
+- "UIColor"
+- "UIImage"
+- !private "UIScrollView"
+depends-member:
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "pagingEnabled"]
+- !private ["SQ", "top"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "pagingEnabled"]
+- !private ["SH", "top"]
+- !private ["s6HasherV", "combine"]
+- ["20PagingMenuController0B11DisplayModeO", "Bool"]
+- ["20PagingMenuController0B11DisplayModeO", "MenuItemWidthMode"]
+- ["20PagingMenuController0B11DisplayModeO", "MenuScrollingMode"]
+- ["20PagingMenuController0B11DisplayModeO", "infinite"]
+- ["20PagingMenuController0B11DisplayModeO", "segmentedControl"]
+- ["20PagingMenuController0B11DisplayModeO", "standard"]
+- ["20PagingMenuController0B9FocusModeO", "CGFloat"]
+- ["20PagingMenuController0B9FocusModeO", "UIColor"]
+- ["20PagingMenuController0B9FocusModeO", "none"]
+- ["20PagingMenuController0B13ItemWidthModeO", "CGFloat"]
+- ["20PagingMenuController0B13ItemWidthModeO", "fixed"]
+- ["20PagingMenuController0B13ItemWidthModeO", "flexible"]
+- ["20PagingMenuController0B8PositionO", "=="]
+- ["20PagingMenuController0B8PositionO", "__derived_enum_equals"]
+- ["20PagingMenuController0B8PositionO", "_rawHashValue"]
+- ["20PagingMenuController0B8PositionO", "bottom"]
+- ["20PagingMenuController0B8PositionO", "deinit"]
+- ["20PagingMenuController0B8PositionO", "hash"]
+- ["20PagingMenuController0B8PositionO", "hashValue"]
+- ["20PagingMenuController0B8PositionO", "top"]
+- ["20PagingMenuController0B13ScrollingModeO", "=="]
+- ["20PagingMenuController0B13ScrollingModeO", "__derived_enum_equals"]
+- ["20PagingMenuController0B13ScrollingModeO", "_rawHashValue"]
+- ["20PagingMenuController0B13ScrollingModeO", "deinit"]
+- ["20PagingMenuController0B13ScrollingModeO", "hash"]
+- ["20PagingMenuController0B13ScrollingModeO", "hashValue"]
+- ["20PagingMenuController0B13ScrollingModeO", "pagingEnabled"]
+- ["20PagingMenuController0B13ScrollingModeO", "scrollEnabled"]
+- ["20PagingMenuController0B13ScrollingModeO", "scrollEnabledAndBouces"]
+- ["20PagingMenuController0B24UnderlineBackgroundStyleV", "CGFloat"]
+- ["20PagingMenuController0B24UnderlineBackgroundStyleV", "UIColor"]
+- !private ["20PagingMenuController0B24UnderlineBackgroundStyleV", "color"]
+- ["20PagingMenuController0B24UnderlineBackgroundStyleV", "height"]
+- ["20PagingMenuController0B24UnderlineBackgroundStyleV", "horizontalPadding"]
+- ["20PagingMenuController0B24UnderlineBackgroundStyleV", "verticalPadding"]
+- ["20PagingMenuController0B16ViewCustomizableP", "Bool"]
+- ["20PagingMenuController0B16ViewCustomizableP", "CGFloat"]
+- ["20PagingMenuController0B16ViewCustomizableP", "Int"]
+- ["20PagingMenuController0B16ViewCustomizableP", "MenuDisplayMode"]
+- ["20PagingMenuController0B16ViewCustomizableP", "MenuFocusMode"]
+- ["20PagingMenuController0B16ViewCustomizableP", "MenuItemViewCustomizable"]
+- ["20PagingMenuController0B16ViewCustomizableP", "MenuPosition"]
+- ["20PagingMenuController0B16ViewCustomizableP", "MenuUnderlineBackgroundStyle"]
+- ["20PagingMenuController0B16ViewCustomizableP", "TimeInterval"]
+- ["20PagingMenuController0B16ViewCustomizableP", "UIColor"]
+- ["20PagingMenuController0B16ViewCustomizableP", "UIImage"]
+- !private ["20PagingMenuController0B16ViewCustomizableP", "UIScrollView"]
+- ["20PagingMenuController0B16ViewCustomizableP", "animationDuration"]
+- ["20PagingMenuController0B16ViewCustomizableP", "deceleratingRate"]
+- ["20PagingMenuController0B16ViewCustomizableP", "displayMode"]
+- ["20PagingMenuController0B16ViewCustomizableP", "dummyItemViewsSet"]
+- ["20PagingMenuController0B16ViewCustomizableP", "focusMode"]
+- ["20PagingMenuController0B16ViewCustomizableP", "height"]
+- ["20PagingMenuController0B16ViewCustomizableP", "menuPosition"]
+- ["20PagingMenuController0B16ViewCustomizableP", "selectedItemCenter"]
+- ["20PagingMenuController0B16ViewCustomizableP", "underlineBackgroundStyle"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "20PagingMenuController0B11DisplayModeO"
+- "20PagingMenuController0B9FocusModeO"
+- "20PagingMenuController0B13ItemWidthModeO"
+- "20PagingMenuController0B8PositionO"
+- "20PagingMenuController0B13ScrollingModeO"
+- "20PagingMenuController0B24UnderlineBackgroundStyleV"
+- "20PagingMenuController0B16ViewCustomizableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fb613b383f9b8d5e9dca3d7af59a74ea"

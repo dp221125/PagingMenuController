@@ -1,0 +1,129 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PagingMenuControllerCustomizable"
+- "LazyLoadingPage"
+- "MenuControllerSet"
+- "ComponentType"
+provides-nominal:
+- "20PagingMenuController0abC12CustomizableP"
+- "20PagingMenuController15LazyLoadingPageO"
+- "20PagingMenuController0bC3SetO"
+- "20PagingMenuController13ComponentTypeO"
+provides-member:
+- ["20PagingMenuController0abC12CustomizableP", ""]
+- ["20PagingMenuController15LazyLoadingPageO", ""]
+- ["20PagingMenuController0bC3SetO", ""]
+- ["20PagingMenuController13ComponentTypeO", ""]
+- ["20PagingMenuController0abC12CustomizableP", "defaultPage"]
+- ["20PagingMenuController0abC12CustomizableP", "animationDuration"]
+- ["20PagingMenuController0abC12CustomizableP", "isScrollEnabled"]
+- ["20PagingMenuController0abC12CustomizableP", "backgroundColor"]
+- ["20PagingMenuController0abC12CustomizableP", "lazyLoadingPage"]
+- ["20PagingMenuController0abC12CustomizableP", "menuControllerSet"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "ComponentType"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LazyLoadingPage"
+- "MenuControllerSet"
+- "MenuViewCustomizable"
+- "PagingMenuControllerCustomizable"
+- "TimeInterval"
+- "UIColor"
+- "UIViewController"
+depends-member:
+- ["20PagingMenuController13ComponentTypeO", "MenuViewCustomizable"]
+- ["20PagingMenuController13ComponentTypeO", "UIViewController"]
+- ["20PagingMenuController13ComponentTypeO", "menuView"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "multiple"]
+- !private ["SQ", "three"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "multiple"]
+- !private ["SH", "three"]
+- !private ["s6HasherV", "combine"]
+- ["20PagingMenuController15LazyLoadingPageO", "=="]
+- ["20PagingMenuController15LazyLoadingPageO", "__derived_enum_equals"]
+- ["20PagingMenuController15LazyLoadingPageO", "_rawHashValue"]
+- ["20PagingMenuController15LazyLoadingPageO", "all"]
+- ["20PagingMenuController15LazyLoadingPageO", "deinit"]
+- ["20PagingMenuController15LazyLoadingPageO", "hash"]
+- ["20PagingMenuController15LazyLoadingPageO", "hashValue"]
+- ["20PagingMenuController15LazyLoadingPageO", "one"]
+- ["20PagingMenuController15LazyLoadingPageO", "three"]
+- ["20PagingMenuController0bC3SetO", "=="]
+- ["20PagingMenuController0bC3SetO", "__derived_enum_equals"]
+- ["20PagingMenuController0bC3SetO", "_rawHashValue"]
+- ["20PagingMenuController0bC3SetO", "deinit"]
+- ["20PagingMenuController0bC3SetO", "hash"]
+- ["20PagingMenuController0bC3SetO", "hashValue"]
+- ["20PagingMenuController0bC3SetO", "multiple"]
+- ["20PagingMenuController0bC3SetO", "single"]
+- ["20PagingMenuController0abC12CustomizableP", "Bool"]
+- ["20PagingMenuController0abC12CustomizableP", "ComponentType"]
+- ["20PagingMenuController0abC12CustomizableP", "Int"]
+- ["20PagingMenuController0abC12CustomizableP", "LazyLoadingPage"]
+- ["20PagingMenuController0abC12CustomizableP", "MenuControllerSet"]
+- ["20PagingMenuController0abC12CustomizableP", "TimeInterval"]
+- ["20PagingMenuController0abC12CustomizableP", "UIColor"]
+- ["20PagingMenuController0abC12CustomizableP", "animationDuration"]
+- ["20PagingMenuController0abC12CustomizableP", "componentType"]
+- ["20PagingMenuController0abC12CustomizableP", "defaultPage"]
+- ["20PagingMenuController0abC12CustomizableP", "isScrollEnabled"]
+- ["20PagingMenuController0abC12CustomizableP", "lazyLoadingPage"]
+- ["20PagingMenuController0abC12CustomizableP", "menuControllerSet"]
+depends-nominal:
+- "20PagingMenuController13ComponentTypeO"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "20PagingMenuController15LazyLoadingPageO"
+- "20PagingMenuController0bC3SetO"
+- "20PagingMenuController0abC12CustomizableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode_11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a470a75f93249476f8b011b737a4206a"

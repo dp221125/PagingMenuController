@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/master.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Tests/PagingMenuControllerTests/PagingMenuControllerTests.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/PagingMenuControllerTests.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/PagingMenuControllerTests.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/PagingMenuControllerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/PagingMenuControllerTests.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Tests/PagingMenuControllerTests/XCTestManifests.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/XCTestManifests.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuControllerTests.build/XCTestManifests.swiftdeps"
+  }
+}

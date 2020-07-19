@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/master.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/MenuItemView.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuItemView.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuItemView.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuItemView~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuItemView.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/MenuView.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuView.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuView.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuView~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/MenuView.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/PagingMenuController.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingMenuController.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingMenuController.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingMenuController~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingMenuController.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/PagingViewController.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingViewController.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingViewController.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/PagingViewController.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/MenuItemViewCustomizable.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuItemViewCustomizable.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuItemViewCustomizable.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuItemViewCustomizable~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuItemViewCustomizable.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/MenuViewCustomizable.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuViewCustomizable.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuViewCustomizable.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuViewCustomizable~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/MenuViewCustomizable.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/Pagable.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/Pagable.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/Pagable.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/Pagable~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/Pagable.swiftdeps"
+  },
+  "/Users/hanzo/Desktop/My/PagingMenuController/Sources/PagingMenuController/Classes/Protocols/PagingMenuControllerCustomizable.swift": {
+    "dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/PagingMenuControllerCustomizable.d",
+    "object": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/PagingMenuControllerCustomizable.swift.o",
+    "swiftmodule": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/PagingMenuControllerCustomizable~partial.swiftmodule",
+    "swift-dependencies": "/Users/hanzo/Desktop/My/PagingMenuController/.build/x86_64-apple-macosx/debug/PagingMenuController.build/Classes/Protocols/PagingMenuControllerCustomizable.swiftdeps"
+  }
+}
